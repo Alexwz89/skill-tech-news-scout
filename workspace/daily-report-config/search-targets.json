@@ -1,0 +1,27 @@
+{
+  "search_targets": [
+    {
+      "topic": "llm",
+      "queries": [
+        "OpenAI official news OR OpenAI blog OR OpenAI announcement",
+        "Anthropic official news OR Anthropic newsroom OR Claude announcement",
+        "Google Gemini official news OR Gemini product announcement OR site:blog.google/products/gemini Gemini"
+      ]
+    },
+    {
+      "topic": "ai-agent",
+      "queries": [
+        "OpenClaw latest updates",
+        "n8n latest updates",
+        "Claude Code latest updates"
+      ]
+    },
+    {
+      "topic": "frontier-tech",
+      "queries": [
+        "AI infrastructure latest news",
+        "frontier AI research latest news"
+      ]
+    }
+  ]
+}

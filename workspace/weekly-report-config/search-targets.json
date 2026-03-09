@@ -1,0 +1,30 @@
+{
+  "search_targets": [
+    {
+      "topic": "llm",
+      "queries": [
+        "OpenAI official updates this week OR OpenAI blog this week OR OpenAI announcement this week",
+        "Anthropic official updates this week OR Anthropic newsroom this week OR Claude announcement this week",
+        "Google Gemini official updates this week OR Gemini product announcement this week OR site:blog.google/products/gemini Gemini",
+        "major open source model release this week"
+      ]
+    },
+    {
+      "topic": "ai-agent",
+      "queries": [
+        "OpenClaw weekly updates",
+        "n8n weekly updates",
+        "Claude Code weekly updates",
+        "AI agent framework updates this week"
+      ]
+    },
+    {
+      "topic": "frontier-tech",
+      "queries": [
+        "frontier AI research this week",
+        "AI infrastructure updates this week",
+        "major AI benchmark or system card this week"
+      ]
+    }
+  ]
+}

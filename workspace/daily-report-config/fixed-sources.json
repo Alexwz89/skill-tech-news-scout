@@ -1,0 +1,244 @@
+{
+  "sources": [
+    {
+      "id": "simonwillison-rss",
+      "type": "rss",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "LLM/AI tooling, prolific blogger"
+    },
+    {
+      "id": "huggingface-rss",
+      "type": "rss",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "note": "Open source AI/ML"
+    },
+    {
+      "id": "openai-rss",
+      "type": "rss",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "Official OpenAI updates"
+    },
+    {
+      "id": "lilian-rss",
+      "type": "rss",
+      "name": "Lil'Log (Lilian Weng)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "note": "In-depth ML tutorials"
+    },
+    {
+      "id": "ars-rss",
+      "type": "rss",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "frontier-tech"
+      ],
+      "note": "Tech news"
+    },
+    {
+      "id": "synced-rss",
+      "type": "rss",
+      "name": "机器之心 Synced",
+      "url": "https://www.jiqizhixin.com/rss",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "中文AI媒体"
+    },
+    {
+      "id": "infoq-rss",
+      "type": "rss",
+      "name": "InfoQ 中文",
+      "url": "https://www.infoq.cn/feed",
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "frontier-tech"
+      ],
+      "note": "技术社区"
+    },
+    {
+      "id": "mit-tech-review-rss",
+      "type": "rss",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "AI policy + deep analysis"
+    },
+    {
+      "id": "nvidia-ai-rss",
+      "type": "rss",
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "note": "GPU/AI infrastructure"
+    },
+    {
+      "id": "deepmind-rss",
+      "type": "rss",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "note": "Frontier AI research"
+    },
+    {
+      "id": "openclaw-github",
+      "type": "github",
+      "name": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "ai-agent"
+      ],
+      "note": "Open source AI assistant platform"
+    },
+    {
+      "id": "n8n-github",
+      "type": "github",
+      "name": "n8n",
+      "repo": "n8n-io/n8n",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "ai-agent"
+      ],
+      "note": "Workflow automation platform"
+    },
+    {
+      "id": "gemini-rss",
+      "type": "rss",
+      "name": "Google Gemini Blog",
+      "url": "https://blog.google/products/gemini/rss/",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "Official Gemini product updates"
+    },
+    {
+      "id": "anthropic-news-html",
+      "type": "html",
+      "name": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news",
+      "enabled": true,
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "allowed_domains": [
+        "www.anthropic.com",
+        "anthropic.com"
+      ],
+      "include_paths": [
+        "/news/"
+      ],
+      "title_min_length": 20,
+      "max_articles": 20,
+      "note": "Official Anthropic newsroom page"
+    },
+    {
+      "id": "reddit-n8n",
+      "type": "reddit",
+      "name": "r/n8n",
+      "subreddit": "n8n",
+      "sort": "hot",
+      "limit": 25,
+      "min_score": 20,
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "note": "n8n community subreddit"
+    },
+    {
+      "id": "reddit-claudecode",
+      "type": "reddit",
+      "name": "r/ClaudeCode",
+      "subreddit": "ClaudeCode",
+      "sort": "hot",
+      "limit": 25,
+      "min_score": 20,
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "note": "Claude Code community subreddit"
+    },
+    {
+      "id": "reddit-openclaw",
+      "type": "reddit",
+      "name": "r/openclaw",
+      "subreddit": "openclaw",
+      "sort": "hot",
+      "limit": 25,
+      "min_score": 10,
+      "enabled": true,
+      "priority": false,
+      "topics": [
+        "ai-agent"
+      ],
+      "note": "OpenClaw community subreddit"
+    }
+  ]
+}

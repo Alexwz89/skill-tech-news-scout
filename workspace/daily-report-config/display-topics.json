@@ -1,0 +1,34 @@
+{
+  "topics": [
+    {
+      "id": "llm",
+      "emoji": "🧠",
+      "label": "LLM / Large Models",
+      "description": "Large Language Models, foundation models, model releases, benchmarks, and breakthroughs in generative AI",
+      "display": {
+        "max_items": 8,
+        "style": "detailed"
+      }
+    },
+    {
+      "id": "ai-agent",
+      "emoji": "🤖",
+      "label": "AI Agent",
+      "description": "Autonomous agents, agent frameworks, AI assistants, and agentic AI systems",
+      "display": {
+        "max_items": 6,
+        "style": "compact"
+      }
+    },
+    {
+      "id": "frontier-tech",
+      "emoji": "🔬",
+      "label": "Frontier Tech",
+      "description": "Cutting-edge technology, research breakthroughs, quantum computing, biotech, and emerging technologies",
+      "display": {
+        "max_items": 8,
+        "style": "detailed"
+      }
+    }
+  ]
+}

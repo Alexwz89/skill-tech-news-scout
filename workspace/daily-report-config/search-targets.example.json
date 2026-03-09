@@ -1,0 +1,27 @@
+{
+  "search_targets": [
+    {
+      "topic": "llm",
+      "queries": [
+        "OpenAI latest news",
+        "Anthropic latest news",
+        "Gemini latest news"
+      ]
+    },
+    {
+      "topic": "ai-agent",
+      "queries": [
+        "OpenClaw latest updates",
+        "n8n latest updates",
+        "Claude Code latest updates"
+      ]
+    },
+    {
+      "topic": "frontier-tech",
+      "queries": [
+        "AI infrastructure latest news",
+        "frontier AI research latest news"
+      ]
+    }
+  ]
+}
